@@ -19,4 +19,12 @@ py DigitClassificationAndNLP.py
 
 The training, validation and testing sets are included within the downloaded files.
 
+### Properties of the program
+
+The 3 models trained in the digit classification are: K-Nearest Neighbour, Random Decision Forest, and Convolutional Neural Network.
+
+- The KNN model trains with neighbour values from 1 to 10
+- The Random Decision Forest trains with n_iterator values of 10, 100, and 1000
+- The convolutional neural network trains a standard 1 convolutional layer model and an implementation of [LeNet-5] (http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+
 Created by Harrison Cattell, 2019
